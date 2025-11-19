@@ -1,0 +1,6 @@
+@Notafy_HostAddress = http://localhost:5173
+
+GET {{Notafy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

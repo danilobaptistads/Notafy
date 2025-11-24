@@ -1,11 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "GZho6e8gaZo=",
+  "dgSpecHash": "n53CTiKyaWs=",
   "success": true,
   "projectFilePath": "D:\\Notafy\\Notafy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
-    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.4\\microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\tesseract.net.sdk\\4.6.411\\tesseract.net.sdk.4.6.411.nupkg.sha512",
+    "C:\\Users\\Danilo.DESKTOP-B4KOUSG\\.nuget\\packages\\tesseractocr\\5.5.1\\tesseractocr.5.5.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'System.Drawing.Common' 5.0.0 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

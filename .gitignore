@@ -1,0 +1,4 @@
+# Arquivos de modelo grandes - ignorar
+East/frozen_east_text_detection.pb
+
+PadleOCr/

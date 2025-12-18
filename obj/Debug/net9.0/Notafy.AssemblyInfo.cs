@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Notafy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ee7b689f28e2352c59627960c6e9d72575143d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92efbb1d0b83468b566964b954daf96a86b296e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Notafy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notafy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,6 +12,9 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Danilo.DESKTOP-B4KOUSG\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)opencvsharp4.runtime.win\4.11.0.20250507\build\net5.0\OpenCvSharp4.runtime.win.props" Condition="Exists('$(NuGetPackageRoot)opencvsharp4.runtime.win\4.11.0.20250507\build\net5.0\OpenCvSharp4.runtime.win.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgTesseract_Net_SDK Condition=" '$(PkgTesseract_Net_SDK)' == '' ">C:\Users\Danilo.DESKTOP-B4KOUSG\.nuget\packages\tesseract.net.sdk\4.6.411</PkgTesseract_Net_SDK>
   </PropertyGroup>

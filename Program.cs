@@ -40,17 +40,21 @@
 //     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 // }
 
-using Tesseract;
 
-class Program
-{
-    static void Main()
-    {
-        using var engine = new TesseractEngine("./tessdata", "por", EngineMode.Default);
+using Notafy.Services;
 
-        using var img = Pix.LoadFromFile("notaguanabara.jpg");
-        using var page = engine.Process(img);
+using OpenCvSharp;
 
-        Console.WriteLine(page.GetText());
-    }
-}
+//var imagemrect = InteractiveQuadEditor.Run("C:/Users/Danilo.DESKTOP-B4KOUSG/OneDrive/Desktop/upToOcr/notinha.jpg");
+var processeadImage = ImagePreProcessor.Process("C:/Users/Danilo.DESKTOP-B4KOUSG/OneDrive/Desktop/upToOcr/notinhawarp.jpg");
+
+var textExtractor = new TextExtractor();
+var text = textExtractor.Extract(processeadImage);
+
+System.Console.WriteLine(text);
+
+// Cv2.ImWrite("saida.png", imagemrect);
+
+// Cv2.ImShow("Processado", imagemrect);
+
+// Cv2.WaitKey();

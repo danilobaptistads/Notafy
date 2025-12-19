@@ -1,8 +1,0 @@
-# ignora pasta key
-Key
-
-# ignora pastas build
-[Bb]in/
-[Oo]bj/
-*.pb
-*.dll
